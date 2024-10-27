@@ -1,17 +1,14 @@
-import Sidebar from './Sidebar'
-import Major from './Major'
-import './App.css'
 
+import './App.css'
+import Hero from './Hero'
 
 function App() {
- 
+
 
   return (
-    <>
-  <Sidebar/>
-  <Major/>
- 
-    </>
+  
+      <Hero/>
+    
   )
 }
 

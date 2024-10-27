@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none ;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+background-color: black;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.hero{
+    background-image: url('./images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.section-box{
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: inset 0 0 5px rgba(255,255,255,0.2);
+    border-radius: 30px;
+    height: 90vh;
+    width: 80%;
+    overflow: hidden;
+
+}
+
+.content-wrap{
+    padding: 20px 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.header-logo span{
+    color: #00ff26;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav :hover{
+    color: #00ff26;
+    border-bottom: 3px solid white;   
+}
+
+.hero-content h3{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 50px;
+    text-align: center;
+}
+.hero-content h1{
+    font-size: 6rem;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -10px;
+}
+.hero-content{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img{
+   width: 40%;
+   margin-top: -80px;
+   animation: planetAn 60s linear infinite;
+}
+
+.hero-btn{
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  height: 45px;
+  width: 210px;
+  margin-top: -80px;
+  cursor: pointer;
+  transition: 0.2s;
+  z-index: 1;
+}
+
+.hero-btn:hover{
+ background-color: white;
+ color: black;
+}
+@keyframes planetAn{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
