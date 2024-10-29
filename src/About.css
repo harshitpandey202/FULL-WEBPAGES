@@ -1,0 +1,98 @@
+.section-box{
+    display: flex;
+    
+   
+}
+.content-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.about-img{
+    width: 80%;
+    border-radius: 50px;
+    margin-left: 30px;
+    animation: zoomIn 1.4s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+.left-grid,
+.right-grid{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.section-sub{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing:1px;
+    color: #00ff26;
+    animation: bottomIn 1s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+}
+.section-title{
+ font-size: 4rem;
+ font-weight: 800;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ margin-bottom: 15px;
+ animation: bottomIn 1s ease-in-out forwards;
+ animation-delay: 0.3s;
+    opacity: 0;
+}
+.para1{
+    font-size: 18px;
+    line-height: 1.8;
+    color: rgb(218,218,218);
+    animation: bottomIn 1s ease-in-out forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
+}
+.action-btn{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.3s;
+    background-color: white;
+    margin-top: 20px;
+    animation: bottomIn 1s ease-in-out forwards;
+    
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+.action-btn:hover{
+    color: black;
+    background-color: #00d11f;
+    
+}
+
+@keyframes bottomIn{
+
+    from{
+        transform: translateY(500px);
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes zoomIn{
+
+    from{
+        transform: scale(0)
+        }
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
