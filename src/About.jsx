@@ -1,5 +1,5 @@
 import "./About.css"
-import img2 from "./images/pup.svg"
+import img2 from "./images/dog1.png"
 
 
 export default function About(){

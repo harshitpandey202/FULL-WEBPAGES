@@ -73,6 +73,7 @@ justify-content: center;
 .action-btn:hover{
     color: black;
     background-color: #00d11f;
+    box-shadow: 0 0 20px #00d11f;
     
 }
 
