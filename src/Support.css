@@ -40,5 +40,53 @@ margin-left: 40px;
     border-bottom: 3px solid #00ff26;
 
 }
+@media screen and (max-width: 428px) {
+    
+    .support-info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+.support-item img{
+   height: 250px;
+
+    }
+    .support-para{
+        font-size: 3rem;
+        text-align: center;
+        margin: 5px ;
+    }
+    .support-item p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 429px) and (max-width: 1280px){
+
+    .support-info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+.support-item img{
+   height: 500px;
+   align-content: center;
+   margin-left: 60px;
+    }
+    .support-para{
+        font-size: 4rem;
+        text-align: center;
+        margin: 5px ;
+        margin-left: 100px;
+    }
+    .support-item p{
+        font-size: 3rem;
+        text-align: center;
+        margin-left: 30px;
+    }
+
+}
 
 

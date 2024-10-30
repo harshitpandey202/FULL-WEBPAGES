@@ -1,5 +1,5 @@
 import "./About.css"
-import img2 from "./images/dog1.png"
+import img2 from "./images/who we are.png"
 import img00 from "./images/what we do.png"
 
 

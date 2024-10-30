@@ -138,3 +138,114 @@ nav :hover{
         transform: rotate(360deg);
     }
 }
+@media screen and (max-width: 428px) {
+
+    .section{
+       padding: 50px 0;
+        height: auto;
+        width: auto;
+    }
+    .section-box{
+        height: auto;
+        width: auto;
+        
+    }
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .header-logo{
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    nav{
+        flex-direction: column; 
+    gap: 30px;  
+ }
+ .nav-item{
+    font-size: 16px;
+ }
+
+.hero-content h3{
+ font-size: 1.5rem;
+ letter-spacing: 20px;
+}
+.hero-content h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 1;
+}
+.hero-content{
+    padding: 50px 0;
+}
+.hero-img{
+    width: 100%;
+    margin-top: 50px;
+}
+.hero-btn{
+    margin-top: 50px;
+}
+
+
+}
+
+
+@media screen and (min-width: 429px) and (max-width: 1280px){
+
+    .section{
+        padding: 50px 0;
+         height: auto;
+         width: auto;
+     }
+     .section-box{
+         height: auto;
+         width: auto;
+         
+     }
+     header{
+         flex-direction: column;
+         gap: 20px;
+     }
+     .header-logo{
+         font-size: 24px;
+         margin: 20px 0;
+     }
+     nav{
+         flex-direction: column; 
+     gap: 30px;  
+  }
+  .nav-item{
+     font-size: 20px;
+  }
+ 
+ .hero-content h3{
+  font-size: 1.8rem;
+  letter-spacing: 25px;
+  margin: 30px;
+ }
+ .hero-content h1{
+     font-size: 4rem;
+     letter-spacing: 2px;
+     margin-top: 50px;
+     line-height: 1.2;
+     text-align: center;
+     z-index: 1;
+ }
+ .hero-content{
+     padding: 50px 0;
+ }
+ .hero-img{
+     width: 100%;
+     margin-top: 50px;
+ }
+ .hero-btn{
+     margin-top: 50px;
+     font-size: 22px;
+ }
+ 
+    
+}
+    

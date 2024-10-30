@@ -70,3 +70,39 @@
 .i4{   
     animation-delay: 0.7s;
 }
+@media screen and (max-width: 428px){
+    .content-wrap2{
+
+      padding: 50px 5%;  
+    }
+    .input-1{
+        height: 45px;
+        width: 85%;
+        padding: 0 20px;
+    }
+ .section-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10px;
+}
+ 
+}
+@media screen and (min-width: 429px) and (max-width: 1280px){
+    .join-us .section-box{
+    width: 100%;
+    }
+    .content-wrap2{
+        width: 100%;
+        padding: 50px 5%;  
+      }
+      .input-1{
+          height: 55px;
+          width: 100%;
+          padding: 0 20px;
+      }
+  .join-us .section-title{
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 10px;
+   }
+}
