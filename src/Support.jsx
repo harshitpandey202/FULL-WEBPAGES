@@ -20,18 +20,18 @@ export default function Support() {
                         </div></Link>
 
                         <div className="support-item">
-                            <img src={img6} alt="Foster" />
-                            <p>Foster</p>
+                        <Link to="/foster"> <img src={img6} alt="Foster" />
+                            <p>Foster</p></Link>
                         </div>
 
                         <div className="support-item">
-                            <img src={img7} alt="Sponsor" />
-                            <p>Sponsor</p>
+                        <Link to="/sponsor"><img src={img7} alt="Sponsor" />
+                            <p>Sponsor</p></Link>
                         </div>
 
                         <div className="support-item">
-                            <img src={img8} alt="Donate" />
-                            <p>Donate</p>
+                        <Link to="/donate"><img src={img8} alt="Donate" />
+                            <p>Donate</p></Link>
                         </div>
                     </div>
                 </div>

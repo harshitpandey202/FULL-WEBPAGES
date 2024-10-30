@@ -22,7 +22,7 @@ export default function Hero() {
             <h3>Protect</h3>
             <h1>Dogs</h1>
             <img src={img1} className="hero-img" alt="Hero" />
-            <button className="hero-btn">Join With Us</button>
+            <Link to="/join-us"><button className="hero-btn">Join With Us</button></Link>
           </div>
         </div>
       </div>

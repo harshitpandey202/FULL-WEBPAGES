@@ -1,12 +1,11 @@
-import Footer from "./Footer"
-import Hero from "./Hero"
+
 import img5 from "./images/support1.png"
 export default function About(){
 
     return(
     
     <>
-    <Hero/>
+    
     <section className="about">
         <div className="section-box">
             <div className="content-grid">
@@ -23,6 +22,6 @@ export default function About(){
             </div>
         </div>
     </section>
-    <Footer/>
+    
     </>
    ) }

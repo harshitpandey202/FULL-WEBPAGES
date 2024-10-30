@@ -1,12 +1,11 @@
-import Footer from "./Footer"
-import Hero from "./Hero"
+
 import img8 from "./images/support4.png"
 export default function Donate(){
 
     return(
     
     <>
-    <Hero/>
+    
     <section className="about">
         <div className="section-box">
             <div className="content-grid">
@@ -26,6 +25,6 @@ MASTER LIST OF THINGS REQUIRED BY OUR SHELTER</p>
             </div>
         </div>
     </section>
-    <Footer/>
+    
     </>
    ) }

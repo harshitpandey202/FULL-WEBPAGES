@@ -1,6 +1,7 @@
 import "./About.css"
 import img2 from "./images/who_we_are-removebg-preview.png"
 import img00 from "./images/what we do.png"
+import { Link } from 'react-router-dom';
 
 
 export default function About(){
@@ -16,7 +17,7 @@ return(
                 <h3 className="section-sub">About Us</h3>
                 <h2 className="section-title">Who We Are</h2>
             <p className="para1">At DOG NGO, we are dedicated to improving the lives of abandoned and neglected dogs. Our mission is to provide shelter, medical care, and loving homes for every furry friend in need. Through community outreach and education, we strive to promote responsible pet ownership and animal welfare.</p>
-            <button className="action-btn">Learn More</button>
+           <Link to="/whatwe"> <button className="action-btn">Learn More</button></Link>
             </div>
        
         <div className="right-grid">
@@ -41,7 +42,7 @@ return(
         <br></br>
             3. <b>Community Education </b>- Conducting workshops on responsible pet ownership, training, and animal welfare.
             </p>
-            <button className="action-btn">Learn More</button>
+            <Link to="/whatdo"><button className="action-btn">Learn More</button></Link>
             
         </div>
         </div>

@@ -1,12 +1,11 @@
-import Footer from "./Footer"
-import Hero from "./Hero"
+
 import img6 from "./images/support2.png"
 export default function Foster(){
 
     return(
     
     <>
-    <Hero/>
+    
     
     <section className="about">
         <div className="section-box">
@@ -24,6 +23,6 @@ export default function Foster(){
             </div>
         </div>
     </section>
-    <Footer/>
+    
     </>
    ) }

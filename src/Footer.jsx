@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Footer.css"
 
 export default function Footer(){
@@ -7,11 +8,11 @@ export default function Footer(){
         <div className="footer-grid">
             <div>
                 <h3>Quick Links</h3>
-                <a  className="footer-items f1" >Home</a>
-                <a  className="footer-items f2">Support</a>
-                <a  className="footer-items f3">Campaigns</a>
-                <a  className="footer-items f4">Blog</a>
-                <a  className="footer-items f5">More</a>
+                <Link to="/"><a  className="footer-items f1" >Home</a></Link>
+                <Link to="/support"> <a  className="footer-items f2">Support</a></Link>
+                <Link to="/campaign"> <a  className="footer-items f3">Campaigns</a></Link>
+                <Link to="/blog"> <a  className="footer-items f4">Blog</a></Link>
+                <Link to="/more"> <a  className="footer-items f5">More</a></Link>
             </div>
 
 

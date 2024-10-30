@@ -33,11 +33,13 @@
     transition: filter 0.2s, box-shadow 0.2s; /* Smooth transitions for image effects */
 }
 
+
 .support-para {
     text-align: center;
     font-size: 4rem;
     font-weight: 600;
     margin-left: 40px;
+    text-decoration: none;
 }
 
 .support-item:hover img {

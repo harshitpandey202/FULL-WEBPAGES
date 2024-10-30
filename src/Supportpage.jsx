@@ -5,8 +5,8 @@ export default function Supportpage(){
 
     return(
            <>
-           <Hero/>
+           
            <Support/>
-           <Footer/>
+           
            </>
     )};

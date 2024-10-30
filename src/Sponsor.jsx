@@ -1,12 +1,11 @@
-import Footer from "./Footer"
-import Hero from "./Hero"
+
 import img7 from "./images/support3.png"
 export default function Sponsor(){
 
     return(
     
     <>
-    <Hero/>
+    
     <section className="about">
         <div className="section-box">
             <div className="content-grid">
@@ -23,6 +22,6 @@ export default function Sponsor(){
             </div>
         </div>
     </section>
-    <Footer/>
+    
     </>
    ) }

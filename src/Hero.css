@@ -5,6 +5,7 @@
     border: none ;
     color: white;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
 background-color: black;

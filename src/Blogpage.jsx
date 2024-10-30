@@ -1,8 +1,8 @@
 import "./Blogpage.css"
-import Hero from "./Hero"
+
 import img025 from "./images/blog 1.jpeg"
 import img024 from "./images/blog 2.png"
-import Footer from "./Footer"
+
 
 
 export default function BlogPage(){
@@ -10,7 +10,7 @@ export default function BlogPage(){
 return(
 
 <>
-<Hero/>
+
 <section className="about">
     <div className="section-box">
         <div className="content-grid">
@@ -47,7 +47,7 @@ return(
         </div>
     </div>
 </section>
-<Footer/>
+
 
 
 
