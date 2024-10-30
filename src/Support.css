@@ -1,92 +1,104 @@
-.Arrange{
+.Arrange {
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
 }
-.support-info{
+
+.support-info {
     display: flex;
     padding: 20px;
     gap: 20px;
     cursor: pointer;
     justify-content: space-between;
     margin-left: 4%;
-  
-
 }
-.support-item p{
-  text-align: center;
-  font-size: 1.5rem;
-  transition: 0.1s;
 
+.support-item {
+    display: flex;
+    flex-direction: column; /* Center text under image */
+    align-items: center; /* Center content */
+    transition: transform 0.2s; /* Add a slight scaling effect on hover */
 }
-.support-item img{
+
+.support-item p {
+    text-align: center;
+    font-size: 1.5rem;
+    transition: 0.2s; /* Smooth transition for hover effects */
+}
+
+.support-item img {
     border-radius: 30px;
     margin-top: 20px;
     filter: grayscale(100);
-    
+    transition: filter 0.2s, box-shadow 0.2s; /* Smooth transitions for image effects */
 }
-.support-para{
-text-align: center;
-font-size: 4rem;
-font-weight: 600;
-margin-left: 40px;
+
+.support-para {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 40px;
 }
-.support-item img:hover{
+
+.support-item:hover img {
     filter: grayscale(0);
     box-shadow: 0 0 20px white;
 }
-.support-item p:hover{
-    border-bottom: 3px solid #00ff26;
 
+.support-item:hover p {
+    border-bottom: 3px solid #00ff26; /* Green underline on text hover */
+    color: #00ff26; /* Change text color on hover */
 }
+
+.support-item:hover {
+    transform: scale(1.05); /* Slight scaling effect on hover */
+}
+
 @media screen and (max-width: 428px) {
-    
-    .support-info{
-        display: flex;
+    .support-info {
         flex-direction: column;
         width: 100%;
         height: auto;
     }
-.support-item img{
-   height: 250px;
 
+    .support-item img {
+        height: 250px;
     }
-    .support-para{
+
+    .support-para {
         font-size: 3rem;
         text-align: center;
-        margin: 5px ;
+        margin: 5px;
     }
-    .support-item p{
+
+    .support-item p {
         font-size: 1.5rem;
     }
 }
-@media screen and (min-width: 429px) and (max-width: 1280px){
 
-    .support-info{
-        display: flex;
+@media screen and (min-width: 429px) and (max-width: 1280px) {
+    .support-info {
         flex-direction: column;
         width: 100%;
         height: auto;
         align-items: center;
     }
-.support-item img{
-   height: 500px;
-   align-content: center;
-   margin-left: 60px;
+
+    .support-item img {
+        height: 500px;
+        margin-left: 60px;
     }
-    .support-para{
+
+    .support-para {
         font-size: 4rem;
         text-align: center;
-        margin: 5px ;
+        margin: 5px;
         margin-left: 100px;
     }
-    .support-item p{
+
+    .support-item p {
         font-size: 3rem;
         text-align: center;
         margin-left: 30px;
     }
-
 }
-
-

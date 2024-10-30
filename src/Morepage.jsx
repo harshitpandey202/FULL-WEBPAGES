@@ -6,9 +6,9 @@ import Community from "./Community";
 export default function Morepage(){
     return(
         <>
-        <Hero/>
+        
         <Community/>
         <Gallery/>
-        <Footer/>
+       
         </>
     )}
