@@ -1,5 +1,6 @@
 import "./About.css"
 import img2 from "./images/dog1.png"
+import img00 from "./images/what we do.png"
 
 
 export default function About(){
@@ -28,7 +29,7 @@ return(
     <div className="section-box">
         <div className="content-grid">
             <div className="left-grid">
-            <img src={img2} className="about-img"></img> 
+            <img src={img00} className="about-img2"></img> 
             </div>
        
         <div className="right-grid">
