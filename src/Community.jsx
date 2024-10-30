@@ -1,5 +1,11 @@
 import "./Community.css"
-import img44 from "./images/1663139024.jpg"
+import img40 from "./images/1663139024.jpg"
+import img41 from "./images/c2.jpg"
+import img42 from "./images/c3.jpg"
+import img43 from "./images/c4.jpg"
+import img44 from "./images/c5.jpeg"
+import img45 from "./images/c6.jpg"
+
 
 export default function Community(){
     return(
@@ -16,7 +22,7 @@ export default function Community(){
 
              <div className="card">
                 <div className="card-img">
-                     <img src={img44} alt="" />
+                     <img src={img40} alt="" />
                 </div>
                 <div className="card-info">
                     <p><b>Kamal Singh </b></p>
@@ -27,7 +33,7 @@ export default function Community(){
 
              <div className="card">
                 <div className="card-img">
-                     <img src={img44} alt="" />
+                     <img src={img41} alt="" />
                 </div>
                 <div className="card-info">
                     <p><b>R.k Singh </b></p>
@@ -38,10 +44,10 @@ export default function Community(){
 
              <div className="card">
                 <div className="card-img">
-                     <img src={img44} alt="" />
+                     <img src={img42} alt="" />
                 </div>
                 <div className="card-info">
-                    <p><b>Vinay Sharma</b></p>
+                    <p><b>Avika Sharma</b></p>
                     <p><b>Punjab</b></p>
                     <p>know More</p>
                 </div>
@@ -64,10 +70,10 @@ export default function Community(){
 
              <div className="card">
                 <div className="card-img">
-                     <img src={img44} alt="" />
+                     <img src={img43} alt="" />
                 </div>
                 <div className="card-info">
-                    <p><b>Adiya</b></p>
+                    <p><b>Aditi Jha</b></p>
                     <p><b>U.K</b></p>
                     <p>know More</p>
                 </div>
@@ -78,7 +84,7 @@ export default function Community(){
                      <img src={img44} alt="" />
                 </div>
                 <div className="card-info">
-                    <p><b>Ravi Kumar</b></p>
+                    <p><b>Ritika Kumar</b></p>
                     <p><b>Delhi</b></p>
                     <p>know More</p>
                 </div>
@@ -86,7 +92,7 @@ export default function Community(){
 
              <div className="card">
                 <div className="card-img">
-                     <img src={img44} alt="" />
+                     <img src={img45} alt="" />
                 </div>
                 <div className="card-info">
                     <p><b>Tapsi Rajput</b></p>

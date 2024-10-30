@@ -1,5 +1,6 @@
 import "./Campaign.css"
-import img2 from "./images/dog1.png"
+import img101 from "./images/campaign1.webp"
+import img102 from "./images/campaign2.webp"
 export default function Campaign(){
     return(
         <>
@@ -14,7 +15,7 @@ export default function Campaign(){
             </div>
        
         <div className="right-grid">
-             <img src={img2} className="about-img"></img> 
+             <img src={img101} className="about-img"></img> 
         </div>
         </div>
     </div>
@@ -23,7 +24,7 @@ export default function Campaign(){
     <div className="section-box">
         <div className="content-grid">
             <div className="left-grid">
-            <img src={img2} className="about-img"></img> 
+            <img src={img102} className="about-img"></img> 
             </div>
        
         <div className="right-grid">

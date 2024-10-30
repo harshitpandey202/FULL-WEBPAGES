@@ -26,7 +26,7 @@ export default function Footer(){
 
             <div>
             <h3>Socials</h3>
-                <a  className="footer-items f1">FaceBook</a>
+                <a   className="footer-items f1">FaceBook</a>
                 <a  className="footer-items f2">Instagram</a>
                 <a  className="footer-items f3">Youtube</a>
                 <a  className="footer-items f4">Linkedin</a>

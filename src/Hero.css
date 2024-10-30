@@ -249,3 +249,26 @@ nav :hover{
     
 }
     
+@media screen and (min-width: 1280px) and (max-width: 1919px){
+
+
+ 
+
+ .hero-content h1{
+     font-size: 6rem;
+     letter-spacing: 20px;
+ }
+ .hero-content{
+     padding: 50px 0;
+ }
+ .hero-img{
+     width: 30%;
+ }
+ .hero-btn{
+     
+     font-size: 22px;
+ }
+ 
+    
+}
+    
