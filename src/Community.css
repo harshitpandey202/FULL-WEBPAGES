@@ -1,65 +1,99 @@
-.section-box3{
-    background-color: rgba(255,255,255,0.2);
+.section-box3 {
+    background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(12px);
-    border: 1px solid rgba(255,255,255,0.2);
-    box-shadow: inset 0 0 5px rgba(255,255,255,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.2);
     border-radius: 30px;
-    height: 90vh;
+    height: auto; /* Adjust height for responsiveness */
     width: 80%;
-    
     display: flex;
     flex-direction: column;
-    
-    
 }
-.com-title{
+
+.com-title {
     text-align: center;
     font-size: 3rem;
     font-weight: 600;
     padding: 20px;
 }
-.card{
-    border: 0.5px solid rgba(255,255,255,0.5);
-    background-color: transparent;
 
+.card {
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    background-color: transparent;
     height: 170px;
     width: 300px;
     display: flex;
-    flex-direction: space-around;
+    flex-direction: column; /* Change to column for better stacking */
     padding: 30px;
     margin: 10px;
     border-radius: 50px;
     gap: 20px;
 }
-.card img{
+
+.card img {
     width: 100px;
     height: 100px;
-    border-radius: 100%;
+    border-radius: 50%; /* Use percentage for round images */
 }
-.card b{
+
+.card b {
     color: rgb(0, 0, 0);
 }
-.card p{
+
+.card p {
     font-size: 15px;
     font-weight: 400;
     letter-spacing: 1px;
     padding: 1px;
     color: black;
 }
-.card:hover{
+
+.card:hover {
     background-color: rgba(255, 255, 255, 0.39);
     color: black;
     box-shadow: 0 0 10px white;
     cursor: pointer;
-
-
 }
-.card-list{
+
+.card-list {
     display: flex;
-    align-content: space-around;
+    flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+    justify-content: space-around; /* Distribute space */
     width: 100%;
     margin-left: 4%;
     padding-bottom: 20px;
-    
-    
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .section-box3 {
+        width: 90%;
+    }
+    .com-title {
+        font-size: 2.5rem;
+    }
+    .card {
+        width: 250px; /* Smaller width for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Adjust height */
+    }
+    .com-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .com-title {
+        font-size: 1.5rem; /* Even smaller title for mobile */
+    }
+    .card {
+        padding: 15px; /* Reduce padding on cards */
+        width: 150px;
+        margin-left: 0;
+    }
 }
