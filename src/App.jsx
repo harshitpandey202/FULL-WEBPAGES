@@ -15,6 +15,7 @@ import Donate from "./Donate";
 import Foster from "./Foster";
 import Adopt from "./Adopt"
 import ScrollToTop from './ScrollToTop';
+
 // Home component to render main content
 function Home() {
   return (
@@ -48,7 +49,9 @@ function App() {
 
 
       </Routes>
-      <Footer /> {/* Footer should be outside Routes */}
+      <Footer /> 
+      
+      {/* Footer should be outside Routes */}
     </>
   );
 }
